@@ -17,11 +17,9 @@ def profit_goal(total_costs):
     """Calculates profit goal  work out profit goal and total sales required"""
     # Initialise variables and error message
     error = "Please enter a valid profit goal\n"
-    profit_type = ""
-    amount = 0
 
-    valid = False
-    while not valid:
+    valid = True
+    while True:
 
         # ask for profit goal...
         response = input("What is your profit goal (eg $500 or 50%): ")
